@@ -1,0 +1,6 @@
+
+body {
+	background: url("bird.jpg") no-repeat fixed;
+	background-position: center 250px;
+	background-size: 60em;
+}
