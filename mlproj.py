@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 import base64
+nltk.download('all')
 nltk.download('wordnet')
 
 main_bg = "white.jpg"
