@@ -1,1 +1,1 @@
-  web: sh setup.sh && streamlit run mlproj.py
+web: sh setup.sh && streamlit run mlproj.py
