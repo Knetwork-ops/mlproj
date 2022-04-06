@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 import base64
-from googletrans import Translator
 nltk.download('all')
 nltk.download('wordnet')
 
@@ -131,8 +130,6 @@ if __name__=="__main__":
     vectoriser, LRmodel = load_models()
  
     text1 = st.text_input("Enter a tweet", "Mr. Stark, I don't feel so good")
-    translator = Translator()
-    text1 = translator.translate(text1, dest='en').text
     text=[text1]
 
                              
